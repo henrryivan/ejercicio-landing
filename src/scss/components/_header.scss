@@ -1,0 +1,36 @@
+.header {
+    margin-bottom: 0.5rem;
+    box-shadow: 3px 3px 10px rgba($text-color, 0.2);
+
+    &-top {
+        background-color: #f2f2f2;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .login {
+        text-transform: uppercase;
+
+        &__link {
+            color: $black;
+            text-decoration: underline;
+        }
+    }
+
+    &-bottom {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .icon-eye {
+        background-color: $text-color;
+        color: $white;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+    }
+}

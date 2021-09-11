@@ -1,0 +1,21 @@
+.button-theme {
+    background-color: $primary-color;
+    color: $white;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.5s;
+
+    @media (min-width: 992px) {
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        color: $white;
+        background-color: darken($primary-color, 8);
+    }
+}

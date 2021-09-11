@@ -1,0 +1,19 @@
+.primary-color {
+    color: $primary-color;
+}
+
+.secondary-color {
+    color: $secondary-color;
+}
+
+.ul-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

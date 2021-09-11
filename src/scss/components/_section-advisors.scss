@@ -1,0 +1,22 @@
+.section-advisors {
+    background-color: #FDFAE9;
+
+    &__areas {
+        border-radius: 10px;
+        padding: 2rem;
+        color: $white;
+        text-align: center;
+
+        &--red {
+            background-color: #d3522a;
+        }
+
+        &--blue {
+            background-color: #305E87;
+        }
+
+        &--green {
+            background-color: #86A73E;
+        }
+    }
+}
